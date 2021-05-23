@@ -13,7 +13,7 @@
 
 * 示例图：
 
-<a href="http://mpvideo.qpic.cn/0b786iaaeaaa4qapzzfjf5qfb4wdalzaaaqa.f10002.mp4?dis_k=ea8d0f0c897beb9a21aefa396383d9cc&amp;dis_t=1621754362&amp;spec_id=MzIzNjU5NDk1MQ%3D%3D1621754644&amp;vid=wxv_1881750923987746818&amp;format_id=10002" src="http://mpvideo.qpic.cn/0b786iaaeaaa4qapzzfjf5qfb4wdalzaaaqa.f10002.mp4?dis_k=ea8d0f0c897beb9a21aefa396383d9cc&amp;dis_t=1621754362&amp;spec_id=MzIzNjU5NDk1MQ%3D%3D1621754644&amp;vid=wxv_1881750923987746818&amp;format_id=10002&amp;support_redirect=1">video</a>
+* <a href="http://mpvideo.qpic.cn/0b786iaaeaaa4qapzzfjf5qfb4wdalzaaaqa.f10002.mp4?dis_k=ea8d0f0c897beb9a21aefa396383d9cc&amp;dis_t=1621754362&amp;spec_id=MzIzNjU5NDk1MQ%3D%3D1621754644&amp;vid=wxv_1881750923987746818&amp;format_id=10002" src="http://mpvideo.qpic.cn/0b786iaaeaaa4qapzzfjf5qfb4wdalzaaaqa.f10002.mp4?dis_k=ea8d0f0c897beb9a21aefa396383d9cc&amp;dis_t=1621754362&amp;spec_id=MzIzNjU5NDk1MQ%3D%3D1621754644&amp;vid=wxv_1881750923987746818&amp;format_id=10002&amp;support_redirect=1">video</a>
 
 <div align="center">
 <img src="https://github.com/leonInShanghai/BoboRestaurant/blob/master/photo/demo.gif?raw=true" alt="示例图"/>
