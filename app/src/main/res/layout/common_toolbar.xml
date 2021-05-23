@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/id_toolbar"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:navigationIcon="@drawable/back"
+    android:titleTextColor="#e6e6e6"
+    tools:ignore="NewApi">
+
+</Toolbar>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".ui.activity.RegisterActivity">
+    <!-- android:background="#f3f5f7" ↑ -->
+
+    <include layout="@layout/common_toolbar"/>
+
+    <EditText
+        android:id="@+id/id_et_username"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="40dp"
+        android:background="#33ffffff"
+        android:inputType="number"
+        android:hint="请输入手机号"
+        android:paddingLeft="8dp"
+        android:textColorHint="#333333"
+        android:textColor="@color/colorPrimary"
+        android:maxLength="11"/>
+
+    <EditText
+        android:id="@+id/id_et_password"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        android:background="#33ffffff"
+        android:inputType="numberPassword"
+        android:hint="请输入密码"
+        android:paddingLeft="8dp"
+        android:textColorHint="#333333"
+        android:textColor="@color/colorPrimary"
+        android:maxLength="6"/>
+
+    <EditText
+        android:id="@+id/id_et_repassword"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        android:background="#33ffffff"
+        android:inputType="numberPassword"
+        android:hint="请再次输入密码"
+        android:paddingLeft="8dp"
+        android:textColorHint="#333333"
+        android:textColor="@color/colorPrimary"
+        android:maxLength="6"/>
+
+    <Button
+        android:id="@+id/id_btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Button_Large_Black"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="50dp"
+        android:text="注册"/>
+
+</LinearLayout>
