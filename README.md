@@ -1,6 +1,5 @@
 # BoboRestaurant
 波波餐厅
-波波领券联盟（MVP架构）
 
 ## MVC架构 简易订餐app
 
