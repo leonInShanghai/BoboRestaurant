@@ -1,2 +1,30 @@
 # BoboRestaurant
 波波餐厅
+波波领券联盟（MVP架构）
+
+## MVC架构 简易订餐app
+
+* 特色列举
+    * 沉浸式状态栏
+    * 注册
+    * 登录
+    * 购物车
+    * 商品详情
+    * 订单详情
+
+* 示例图：
+
+<div align="center">
+<img src="https://github.com/leonInShanghai/BoboRestaurant/blob/master/photo/demo.gif?raw=true" alt="示例图"/>
+</div>
+
+>鸣谢：
+>> * zhy
+>> * com.zhy:okhttputils:2.6.2
+>> * com.squareup.picasso:picasso:2.5.2
+>> * OkHttp
+
+<a href="https://github.com/leonInShanghai/BoboRestaurant/blob/master/app/release/app-release.apk" target="_blank">apk下载地址</a>
+
+<br/>
+
