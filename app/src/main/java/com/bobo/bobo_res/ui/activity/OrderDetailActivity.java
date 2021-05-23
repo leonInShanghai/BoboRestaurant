@@ -76,6 +76,6 @@ public class OrderDetailActivity extends BaseActivity {
             }
             mTvDesc.setText(sb.toString());
         }
-        mTvPrice.setText("共消费" + mOrder.getPrice() + " 元/份");
+        mTvPrice.setText("共消费" + mOrder.getPrice() + " 元");
     }
 }
