@@ -238,6 +238,17 @@ public class LoginActivity extends BaseActivity {
         context.startActivity(intent);
     }
 
+    // -----------FIXME:用户体验优化↓----------------------
+    // 当用户按下返回键时发送一个广播OrderActivity 收到广播后自己finish()
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent();
+        intent.setAction(Config.FINISH_ORDER_ACTIVITY);
+        sendBroadcast(intent);
+    }
+    // -----------FIXME:用户体验优化↑----------------------
+
     @Override
     protected void onDestroy() {
         if (mUserBiz != null) {

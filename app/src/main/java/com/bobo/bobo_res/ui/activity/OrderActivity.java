@@ -1,6 +1,9 @@
 package com.bobo.bobo_res.ui.activity;
 
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
@@ -49,6 +52,16 @@ public class OrderActivity extends BaseActivity {
     private OrderBiz mOrderBiz = new OrderBiz();
     private int mCurrentPage = 0;
 
+    // -----------FIXME:用户体验优化↓----------------------
+    // 当用户按下返回键时发送一个广播OrderActivity 收到广播后自己finish()
+    private BroadcastReceiver mBroadcastReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            finish();
+        }
+    };
+    // -----------FIXME:用户体验优化↑----------------------
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,6 +69,11 @@ public class OrderActivity extends BaseActivity {
 
         initView();
         initEvents();
+
+        // -----------FIXME:用户体验优化↓----------------------
+        // 当用户按下返回键时发送一个广播OrderActivity 收到广播后自己finish()
+        registerReceiver(mBroadcastReceiver, new IntentFilter(Config.FINISH_ORDER_ACTIVITY));
+        // -----------FIXME:用户体验优化↑----------------------
     }
 
     @Override
@@ -265,6 +283,10 @@ public class OrderActivity extends BaseActivity {
         if (mOrderBiz != null) {
             mOrderBiz.onDestory();
             mOrderBiz = null;
+        }
+        // 广播要解除注册避免内存泄漏
+        if (mBroadcastReceiver != null) {
+            unregisterReceiver(mBroadcastReceiver);
         }
         super.onDestroy();
     }

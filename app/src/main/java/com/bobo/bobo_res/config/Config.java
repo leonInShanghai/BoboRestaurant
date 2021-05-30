@@ -22,4 +22,7 @@ public class Config {
     public static final String LOGIN_SUCCESS_USER_NAME = "LOGIN_SUCCESS_USER_NAME";
     /** 登录成功保存用户密码的key */
     public static final String LOGIN_SUCCESS_USER_PASSWORD = "LOGIN_SUCCESS_USER_PASSWORD";
+
+    /** 用户体验优化在登录页用户按下返回键发送一个广播，Order页收到广播后自己finish 避免用户登录页返回后是订单页的bug*/
+    public static final String FINISH_ORDER_ACTIVITY = "com.bobo.bobo_res.ui.activity.FINISH_ORDER_ACTIVITY";
 }

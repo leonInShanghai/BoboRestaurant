@@ -11,7 +11,7 @@
     * 商品详情
     * 订单详情
 
-* <a href="http://mpvideo.qpic.cn/0b786iaaeaaa4qapzzfjf5qfb4wdalzaaaqa.f10002.mp4?dis_k=ea8d0f0c897beb9a21aefa396383d9cc&amp;dis_t=1621754362&amp;spec_id=MzIzNjU5NDk1MQ%3D%3D1621754644&amp;vid=wxv_1881750923987746818&amp;format_id=10002" src="http://mpvideo.qpic.cn/0b786iaaeaaa4qapzzfjf5qfb4wdalzaaaqa.f10002.mp4?dis_k=ea8d0f0c897beb9a21aefa396383d9cc&amp;dis_t=1621754362&amp;spec_id=MzIzNjU5NDk1MQ%3D%3D1621754644&amp;vid=wxv_1881750923987746818&amp;format_id=10002&amp;support_redirect=1">video</a>
+* <a href="https://mp.weixin.qq.com/s?__biz=MzIzNjU5NDk1MQ==&mid=2247483751&idx=1&sn=c41cdd65a1b521cfe5a342bfc8776791&chksm=e8d4330fdfa3ba196e4f1227a8e106ca3269215cf05ba92bf8bbf171b6571628cc443c26f6a1&token=1185001004&lang=zh_CN#rd">video</a>
 
 * 示例图：
 
